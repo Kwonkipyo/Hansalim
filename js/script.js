@@ -487,7 +487,7 @@ window.onload = function () {
       <div class="good-box">
       <!-- 제품이미지 -->
       <a href="${item.link}" class="good-img">
-        <img src="images/${item.pic}" alt="${item.name}" />
+        <img src="${item.pic}" alt="${item.name}" />
         <span class="good-type">${item.tag}</span>
       </a>
       <!-- 제품정보 -->
