@@ -565,7 +565,7 @@ window.onload = function () {
       let tag = `
       <div class="swiper-slide">
         <a href="${item.link}">
-         <img src = "${item.image}" alt ="${item.title}"/>
+          <img src = "${item.image}" alt ="${item.title}"/>
         
         </a>
       </div>
@@ -922,4 +922,10 @@ window.onload = function () {
       // console.log(index);
     });
   });
+      // 안내창 스크립트
+      let modal = document.querySelector(".modal-wrap");
+      modal.addEventListener("click",function(){
+          modal.style.display = "none";
+          fadeOut(modal);
+      });
 };
